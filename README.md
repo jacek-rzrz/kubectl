@@ -18,3 +18,7 @@ kubectl describe deployment SERVICE_NAME
 kubectl edit deployment APP_NAME
 ```
 
+## Roll back to previous version
+```
+kubectl rollout undo deployment/APP_NAME
+```
